@@ -1,0 +1,11 @@
+# Python-afhængigheder for YOLO11-projektet.
+# Installeres i et virtuelt miljø, fx:
+#   python3 -m venv .venv
+#   source .venv/bin/activate
+#   pip install -r requirements.txt
+#
+# Versionerne er dem, projektet blev testet med på macOS (Apple Silicon).
+
+ultralytics==8.4.177
+torch==2.14.1
+torchvision==0.29.1

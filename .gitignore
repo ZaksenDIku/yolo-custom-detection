@@ -1,0 +1,32 @@
+# .gitignore - filer der IKKE skal med på GitHub.
+
+# Virtuelt Python-miljø
+.venv/
+venv/
+
+# Python-cache
+__pycache__/
+*.py[cod]
+
+# Modelvægte og eksporterede modeller (store filer)
+*.pt
+*.onnx
+*.mlpackage
+
+# Træningsresultater og genererede billeder
+runs/
+wandb/
+
+# Datasættet (stort - hentes separat fra Roboflow)
+dataset/
+dataset_fixed/
+dataset_original/
+
+# Hemmeligheder / nøgler
+.env
+*.key
+secrets/
+.roboflow/
+
+# macOS
+.DS_Store
